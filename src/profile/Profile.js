@@ -1,8 +1,5 @@
 import React from "react";
 import PropTypes from "prop-types";
-function handleName() {
-  return alert("Hello! the profile user is Ousama Saoudi");
-}
 
 const Profile = (props) => {
   return (
@@ -11,7 +8,6 @@ const Profile = (props) => {
       <h2> {props.bio} </h2>
       <h3> {props.profession} </h3>
       {props.children}
-      {handleName()}
     </div>
   );
 };
